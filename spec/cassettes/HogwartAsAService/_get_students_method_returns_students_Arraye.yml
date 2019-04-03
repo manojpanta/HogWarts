@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       X-Api-Key:
-      - oPGaRUMm7Cpisj6fosH8VhIgjnxx8zh1
+      - "<hogwarts_api>"
       User-Agent:
       - Faraday v0.15.4
       Accept-Encoding:
@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 03 Apr 2019 20:39:11 GMT
+      - Wed, 03 Apr 2019 21:07:27 GMT
       Connection:
       - keep-alive
       X-Frame-Options:
@@ -45,9 +45,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 2317ec27-279d-4997-b607-18c64ab23c72
+      - 29996838-35a7-40eb-ad3d-8eff2afcd322
       X-Runtime:
-      - '0.007332'
+      - '0.005648'
       Transfer-Encoding:
       - chunked
       Via:
@@ -56,7 +56,7 @@ http_interactions:
       encoding: UTF-8
       string: '[{"id":1,"name":"Gryffindor"},{"id":2,"name":"Ravenclaw"},{"id":3,"name":"Hufflepuff"},{"id":4,"name":"Slytherin"}]'
     http_version: 
-  recorded_at: Wed, 03 Apr 2019 20:39:09 GMT
+  recorded_at: Wed, 03 Apr 2019 21:07:26 GMT
 - request:
     method: get
     uri: https://hogwarts-as-a-service.herokuapp.com/api/v1/house/4
@@ -65,7 +65,7 @@ http_interactions:
       string: ''
     headers:
       X-Api-Key:
-      - oPGaRUMm7Cpisj6fosH8VhIgjnxx8zh1
+      - "<hogwarts_api>"
       User-Agent:
       - Faraday v0.15.4
       Accept-Encoding:
@@ -80,7 +80,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 03 Apr 2019 20:39:10 GMT
+      - Wed, 03 Apr 2019 21:07:28 GMT
       Connection:
       - keep-alive
       X-Frame-Options:
@@ -102,9 +102,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d2abc7c7-ab56-4e6a-8892-62813cc3df10
+      - e634a4d9-b3d9-42e4-aca2-81205d244ca9
       X-Runtime:
-      - '0.013208'
+      - '0.014891'
       Transfer-Encoding:
       - chunked
       Via:
@@ -119,5 +119,5 @@ http_interactions:
         Malfoy"},{"id":69,"name":"Vincent Crabbe"},{"id":70,"name":"Gregory Goyle"},{"id":71,"name":"Millicent
         Bulstrode"},{"id":72,"name":"Pansy Parkinson"},{"id":73,"name":"Blaise Sabini"}]'
     http_version: 
-  recorded_at: Wed, 03 Apr 2019 20:39:10 GMT
+  recorded_at: Wed, 03 Apr 2019 21:07:26 GMT
 recorded_with: VCR 4.0.0

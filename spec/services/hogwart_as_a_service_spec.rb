@@ -12,7 +12,6 @@ describe  HogwartAsAService do
   end
 
   it '#get_json method returns JSON object', :vcr do
-    WebMock.disable!
     students = HogwartAsAService.new.get_json('house')
 
     expect(students).to be_a(Array)

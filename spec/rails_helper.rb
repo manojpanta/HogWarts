@@ -42,7 +42,7 @@ RSpec.configure do |config|
      config.cassette_library_dir = 'spec/cassettes'
      config.hook_into :webmock
      config.configure_rspec_metadata!
-     config.filter_sensitive_data('<hogwarts_api>') { ENV['hogwarts_api'] }
+     config.filter_sensitive_data('<hogwarts_api>') { ENV['hogwarts_service_api'] }
    end
 
   # RSpec Rails can automatically mix in different behaviours to your tests

@@ -5,5 +5,4 @@ class Student
     @name = data[:name]
     @id = data[:id]
   end
-
 end
