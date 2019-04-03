@@ -1,0 +1,2 @@
+class HogwartService
+end
