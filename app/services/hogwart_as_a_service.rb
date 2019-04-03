@@ -1,12 +1,9 @@
 class HogwartAsAService
 
   def get_students(house1)
-    house_r = []
-    get_json('house').each do |house|
-      house_r << house if house[:name] == house1
-    end
-    house_id = house_r.first[:id]
-    
+    house_id = get_json('house').select do |house|
+      house[:name] == house1
+    end.first[:id]
     get_json("house/#{house_id}")
   end
 
