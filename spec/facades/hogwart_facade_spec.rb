@@ -9,5 +9,7 @@ describe  HogwartFacade do
     students = HogwartFacade.new('Slytherin').students
 
     expect(students).to be_a(Array)
+    expect(students.count).to eq 22
+    expect(students.all?).to eq true
   end
 end
