@@ -5,9 +5,9 @@ describe  HogwartService do
     expect(service).to be_a(HogwartService)
   end
 
-  # it '#get_students method returns students' do
-  #   students = HogwartService.new('name').students
-  #
-  #   expect(students).to be_a(Array)
-  # end
+  it '#get_students method returns students' do
+    students = HogwartService.new.get_students('Slytherin')
+
+    expect(students).to be_a(Hash)
+  end
 end

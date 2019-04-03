@@ -5,7 +5,7 @@ class HogwartFacade
 
 
   def students
-    service.students.map do |student_data|
+    service.get_students(@house).map do |student_data|
       Student.new(student_data)
     end
   end

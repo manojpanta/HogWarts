@@ -1,6 +1,6 @@
 class SearchController < ApplicationController
   def index
     house = params[:house]
-    students = HogwartFacade.new(house).students
+    render locals: {facade: HogwartFacade.new(house)}
   end
 end
