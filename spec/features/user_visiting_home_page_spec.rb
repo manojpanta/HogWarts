@@ -1,7 +1,7 @@
 require 'rails_helper'
 describe 'user visitng home page' do
   context 'selects slytherin and click on students' do
-    it 'returns students' do
+    it 'returns students', :vcr do
       visit '/'
       select 'Slytherin'
       click_on 'Get Students'

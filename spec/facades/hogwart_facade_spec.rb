@@ -5,7 +5,7 @@ describe  HogwartFacade do
     expect(facade).to be_a(HogwartFacade)
   end
 
-  it '#students method returns students' do
+  it '#students method returns students', :vcr do
     students = HogwartFacade.new('Slytherin').students
 
     expect(students).to be_a(Array)

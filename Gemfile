@@ -13,6 +13,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'figaro'
 gem 'faraday'
+gem 'vcr'
+gem 'webmock'
 
 group :development, :test do
   gem 'pry'

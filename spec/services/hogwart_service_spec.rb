@@ -5,12 +5,12 @@ describe  HogwartService do
     expect(service).to be_a(HogwartService)
   end
 
-  it '#get_students method returns students Array' do
+  it '#get_students method returns students Array', :vcr do
     students = HogwartService.new.get_students('Slytherin')
     expect(students).to be_a(Array)
   end
 
-  it '#get_json method returns JSON object' do
+  it '#get_json method returns JSON object', :vcr do
     students = HogwartService.new.get_json('house/Slytherin')
 
     expect(students).to be_a(Hash)
