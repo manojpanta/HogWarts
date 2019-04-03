@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 03 Apr 2019 20:03:20 GMT
+      - Wed, 03 Apr 2019 20:40:06 GMT
       Connection:
       - keep-alive
       X-Frame-Options:
@@ -43,9 +43,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 51bfa7ac-cde9-4bb0-a300-2d2aeb8f147d
+      - 27e5867f-da41-464c-b451-d04b699d8b01
       X-Runtime:
-      - '0.047953'
+      - '0.064061'
       Transfer-Encoding:
       - chunked
       Via:
@@ -74,5 +74,5 @@ http_interactions:
         Parkinson","house_id":4,"created_at":"2019-03-30T17:47:41.352Z","updated_at":"2019-03-30T17:47:41.352Z"},{"id":73,"name":"Blaise
         Sabini","house_id":4,"created_at":"2019-03-30T17:47:41.359Z","updated_at":"2019-03-30T17:47:41.359Z"}]}}]}'
     http_version: 
-  recorded_at: Wed, 03 Apr 2019 20:03:19 GMT
+  recorded_at: Wed, 03 Apr 2019 20:40:05 GMT
 recorded_with: VCR 4.0.0

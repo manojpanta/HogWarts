@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 03 Apr 2019 20:39:11 GMT
+      - Wed, 03 Apr 2019 20:39:09 GMT
       Connection:
       - keep-alive
       X-Frame-Options:
@@ -45,9 +45,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 2317ec27-279d-4997-b607-18c64ab23c72
+      - 2237e76e-10d0-4a76-903d-01d2be23f7ae
       X-Runtime:
-      - '0.007332'
+      - '0.006838'
       Transfer-Encoding:
       - chunked
       Via:
@@ -56,7 +56,7 @@ http_interactions:
       encoding: UTF-8
       string: '[{"id":1,"name":"Gryffindor"},{"id":2,"name":"Ravenclaw"},{"id":3,"name":"Hufflepuff"},{"id":4,"name":"Slytherin"}]'
     http_version: 
-  recorded_at: Wed, 03 Apr 2019 20:39:09 GMT
+  recorded_at: Wed, 03 Apr 2019 20:39:08 GMT
 - request:
     method: get
     uri: https://hogwarts-as-a-service.herokuapp.com/api/v1/house/4
@@ -102,9 +102,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d2abc7c7-ab56-4e6a-8892-62813cc3df10
+      - 4f1bcd38-4f89-4ecd-b10c-298e4da1a255
       X-Runtime:
-      - '0.013208'
+      - '0.013366'
       Transfer-Encoding:
       - chunked
       Via:
@@ -119,5 +119,5 @@ http_interactions:
         Malfoy"},{"id":69,"name":"Vincent Crabbe"},{"id":70,"name":"Gregory Goyle"},{"id":71,"name":"Millicent
         Bulstrode"},{"id":72,"name":"Pansy Parkinson"},{"id":73,"name":"Blaise Sabini"}]'
     http_version: 
-  recorded_at: Wed, 03 Apr 2019 20:39:10 GMT
+  recorded_at: Wed, 03 Apr 2019 20:39:09 GMT
 recorded_with: VCR 4.0.0

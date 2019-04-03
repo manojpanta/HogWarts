@@ -4,8 +4,7 @@ describe  HogwartFacade do
     facade = HogwartFacade.new('Slytherin')
     expect(facade).to be_a(HogwartFacade)
   end
-
-  it '#students method returns students', :vcr do
+  it '#students method returns students using hogwart as a service api', :vcr do
     students = HogwartFacade.new('Slytherin').students
 
     expect(students).to be_a(Array)
